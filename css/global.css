@@ -1,0 +1,25 @@
+body {
+  background: #f4f8f9;
+  font-family: Sailec, sans-serif;
+}
+body *,
+body *:before,
+body *:after {
+  transition: all 0.35s ease-in-out;
+}
+body *:hover,
+body *:active,
+body *:focus {
+  outline: 0 !important;
+}
+body a,
+body a:hover,
+body a:active,
+body a:link,
+body a:visited {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.scss.map */
+
+/*# sourceMappingURL=global.css.map */

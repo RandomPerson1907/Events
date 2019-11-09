@@ -7,13 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Events</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <div id="app">
-        <aside>
+        <nav>
             <div class="logo text-center mt-3 mb-5">
                 <svg width="30px" height="42px" viewBox="0 0 30 42" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
                     <g id="logo" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 30 0)">
@@ -103,13 +105,13 @@
                     </a>
                 </div>
             </nav>
-        </aside>
+        </nav>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 pr-0">
-                    <div class="container-fluid pr-0">
-                        <div class="row-fluid">
-                            <div class="col-md-12 p-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 pr-0">
                                 <header class="d-flex justify-content-between">
                                     <div class="search d-flex">
                                         <button class="search__icon">
@@ -159,6 +161,165 @@
                                         </div>
                                     </div>
                                 </header>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <main>
+                                    <div class="row">
+                                        <div class="col-md-9 d-flex">
+                                            <h1>Sessions</h1>
+                                            <button class="button__export">
+                                                <span class="button__export__img">
+                                                    <svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M5.74909 7.23244C5.75294 7.22896 5.7588 7.23061 5.76247 7.22676L7.96044 4.66268C8.1049 4.5184 8.1049 4.28373 7.96044 4.13908C7.81597 3.9948 7.58167 3.9948 7.43721 4.13908L5.8666 5.97185L5.8666 0.366481C5.8666 0.164265 5.70234 0 5.49975 0C5.29736 0 5.13309 0.164265 5.13309 0.366481L5.13309 5.97185L3.56249 4.13908C3.41802 3.9948 3.18391 3.9948 3.03926 4.13908C2.89479 4.28373 2.89479 4.5184 3.03926 4.66268L5.23722 7.22676C5.31239 7.30211 5.41102 7.33383 5.50947 7.33089L5.51186 7.33053C5.6037 7.32759 5.68639 7.29129 5.74909 7.23244ZM0.366664 9.53291L10.6333 9.53291C10.8356 9.53291 10.9999 9.36919 10.9999 9.16625L10.9999 6.23312C10.9999 6.0309 10.8356 5.86646 10.6333 5.86646C10.4309 5.86646 10.2666 6.0309 10.2666 6.23312L10.2666 8.79958L0.733328 8.79958L0.733328 6.23312C0.733328 6.0309 0.569062 5.86646 0.366664 5.86646C0.164082 5.86646 0 6.0309 0 6.23312L0 9.16625C0 9.36919 0.164082 9.53291 0.366664 9.53291Z" transform="translate(0.1000977 0.09997559)" id="Fill-1" fill="#4DA1FF" fill-opacity="0.7411765" fill-rule="evenodd" stroke="#4DA1FF" stroke-width="0.2" />
+                                                    </svg>
+                                                </span>
+                                                <span class="button__export__text">
+                                                    Export
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="tabs d-flex justify-content-end ml-5 mr-5">
+                                                <div class="tabs__type views__cards d-flex active">
+                                                    <div class="tabs__img">
+                                                        <svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M0.928571 5.57156L4.64286 5.57156C5.15589 5.57156 5.57143 5.1558 5.57143 4.64347L5.57143 0.929251C5.57143 0.415993 5.15589 0 4.64286 0L0.928571 0C0.415768 0 0 0.415993 0 0.929251L0 4.64347C0 5.1558 0.415768 5.57156 0.928571 5.57156ZM8.35704 5.57156L12.0713 5.57156C12.5844 5.57156 12.9999 5.1558 12.9999 4.64347L12.9999 0.929251C12.9999 0.415993 12.5844 0 12.0713 0L8.35704 0C7.84423 0 7.42847 0.415993 7.42847 0.929251L7.42847 4.64347C7.42847 5.1558 7.84423 5.57156 8.35704 5.57156ZM4.17847 0.929199C4.43475 0.929199 4.64275 1.13627 4.64275 1.39255L4.64275 4.17891C4.64275 4.43473 4.43475 4.64342 4.17847 4.64342L1.39275 4.64342C1.13623 4.64342 0.928467 4.43473 0.928467 4.17891L0.928467 1.39255C0.928467 1.13627 1.13623 0.929199 1.39275 0.929199L4.17847 0.929199ZM12.0715 1.39255C12.0715 1.13627 11.8635 0.929199 11.6072 0.929199L8.82146 0.929199C8.56518 0.929199 8.35718 1.13627 8.35718 1.39255L8.35718 4.17891C8.35718 4.43473 8.56518 4.64342 8.82146 4.64342L11.6072 4.64342C11.8635 4.64342 12.0715 4.43473 12.0715 4.17891L12.0715 1.39255ZM0.928571 13L4.64286 13C5.15589 13 5.57143 12.5843 5.57143 12.0712L5.57143 8.35702C5.57143 7.84446 5.15589 7.42847 4.64286 7.42847L0.928571 7.42847C0.415768 7.42847 0 7.84446 0 8.35702L0 12.0712C0 12.5843 0.415768 13 0.928571 13ZM8.35704 13L12.0713 13C12.5844 13 12.9999 12.5843 12.9999 12.0712L12.9999 8.35702C12.9999 7.84446 12.5844 7.42847 12.0713 7.42847L8.35704 7.42847C7.84423 7.42847 7.42847 7.84446 7.42847 8.35702L7.42847 12.0712C7.42847 12.5843 7.84423 13 8.35704 13ZM4.64275 8.82121C4.64275 8.56493 4.43475 8.35693 4.17847 8.35693L1.39275 8.35693C1.13623 8.35693 0.928467 8.56493 0.928467 8.82121L0.928467 11.6073C0.928467 11.8636 1.13623 12.0712 1.39275 12.0712L4.17847 12.0712C4.43475 12.0712 4.64275 11.8636 4.64275 11.6073L4.64275 8.82121ZM12.0715 8.82121C12.0715 8.56493 11.8635 8.35693 11.6072 8.35693L8.82146 8.35693C8.56518 8.35693 8.35718 8.56493 8.35718 8.82121L8.35718 11.6073C8.35718 11.8636 8.56518 12.0712 8.82146 12.0712L11.6072 12.0712C11.8635 12.0712 12.0715 11.8636 12.0715 11.6073L12.0715 8.82121Z" id="Fill-1" fill="#007AFF" fill-rule="evenodd" stroke="none" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="tabs__text">
+                                                        Cards
+                                                    </div>
+                                                </div>
+                                                <div class="tabs__type views__table d-flex">
+                                                    <div class="tabs__img">
+                                                        <svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M13.125 3.75L1.875 3.75C0.839531 3.75 0 2.91094 0 1.875C0 0.839062 0.839531 0 1.875 0L13.125 0C14.1605 0 15 0.839062 15 1.875C15 2.91094 14.1605 3.75 13.125 3.75ZM1.875 0.9375L13.125 0.9375C13.6425 0.9375 14.0625 1.35938 14.0625 1.875C14.0625 2.39063 13.6425 2.8125 13.125 2.8125L1.875 2.8125C1.3575 2.8125 0.9375 2.39063 0.9375 1.875C0.9375 1.35938 1.3575 0.9375 1.875 0.9375ZM1.875 4.6875L13.125 4.6875C14.1605 4.6875 15 5.52656 15 6.5625C15 7.59844 14.1605 8.4375 13.125 8.4375L1.875 8.4375C0.839531 8.4375 0 7.59844 0 6.5625C0 5.52656 0.839531 4.6875 1.875 4.6875ZM13.125 7.5L1.875 7.5C1.3575 7.5 0.9375 7.07813 0.9375 6.5625C0.9375 6.04688 1.3575 5.625 1.875 5.625L13.125 5.625C13.6425 5.625 14.0625 6.04688 14.0625 6.5625C14.0625 7.07813 13.6425 7.5 13.125 7.5ZM1.875 9.375L13.125 9.375C14.1605 9.375 15 10.2141 15 11.25C15 12.2859 14.1605 13.125 13.125 13.125L1.875 13.125C0.839531 13.125 0 12.2859 0 11.25C0 10.2141 0.839531 9.375 1.875 9.375ZM1.875 12.1875L13.125 12.1875C13.6425 12.1875 14.0625 11.7656 14.0625 11.25C14.0625 10.7344 13.6425 10.3125 13.125 10.3125L1.875 10.3125C1.3575 10.3125 0.9375 10.7344 0.9375 11.25C0.9375 11.7656 1.3575 12.1875 1.875 12.1875Z" id="Fill-38" fill="#007AFF" fill-opacity="0.5718976" fill-rule="evenodd" stroke="none" />
+                                                        </svg>
+                                                    </div>
+                                                    <div class="tabs__text">
+                                                        Table
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-md-4">
+                                            <div class="block block__stat block__stat_number">
+                                                <div class="block__top d-flex justify-content-between">
+                                                    <div class="block__text">
+                                                        Number of sessions
+                                                    </div>
+                                                    <button class="block__img">
+                                                        <svg width="23px" height="5px" viewBox="0 0 23 5" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M0 2.5C0 3.881 1.13327 5 2.53209 5C3.92986 5 5.06418 3.881 5.06418 2.5C5.06418 1.119 3.92986 0 2.53209 0C1.13327 0 0 1.119 0 2.5ZM11.5 5C10.1106 5 8.98462 3.881 8.98462 2.5C8.98462 1.119 10.1106 0 11.5 0C12.8894 0 14.0153 1.119 14.0153 2.5C14.0153 3.881 12.8894 5 11.5 5ZM20.4679 5C19.0701 5 17.9358 3.881 17.9358 2.5C17.9358 1.119 19.0701 0 20.4679 0C21.8667 0 23 1.119 23 2.5C23 3.881 21.8667 5 20.4679 5Z" id="options" fill="#D0D7DD" fill-opacity="0.7254902" fill-rule="evenodd" stroke="none" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="block__content">
+                                                    <div class="block__text">
+                                                        <span class="blue">23</span>
+                                                        This month
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="block block__stat block__stat_no-answer">
+                                                <div class="block__top d-flex justify-content-between">
+                                                    <div class="block__text">
+                                                        Users, who haven`t answered
+                                                    </div>
+                                                    <button class="block__img">
+                                                        <svg width="23px" height="5px" viewBox="0 0 23 5" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M0 2.5C0 3.881 1.13327 5 2.53209 5C3.92986 5 5.06418 3.881 5.06418 2.5C5.06418 1.119 3.92986 0 2.53209 0C1.13327 0 0 1.119 0 2.5ZM11.5 5C10.1106 5 8.98462 3.881 8.98462 2.5C8.98462 1.119 10.1106 0 11.5 0C12.8894 0 14.0153 1.119 14.0153 2.5C14.0153 3.881 12.8894 5 11.5 5ZM20.4679 5C19.0701 5 17.9358 3.881 17.9358 2.5C17.9358 1.119 19.0701 0 20.4679 0C21.8667 0 23 1.119 23 2.5C23 3.881 21.8667 5 20.4679 5Z" id="options" fill="#D0D7DD" fill-opacity="0.7254902" fill-rule="evenodd" stroke="none" />
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="block__content">
+                                                    <div class="block__text">
+                                                        <span class="orange">06</span>
+                                                        This month
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                        <div class="col-md-4">
+                                            <div class="block block__stat block__stat_number">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="block block__stat block__stat_no-answer">
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="block block__stat block__stat_no-answer">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </main>
+                            </div>
+                            <div class="col-md-2 pr-0">
+                                <aside>
+                                    <div class="aside__header d-flex">
+                                        <div class="header__icon">
+                                            <svg width="28px" height="32px" viewBox="0 0 28 32" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M26.4843 23.2395L24.886 21.6411C24.7547 21.5111 24.7587 20.9524 24.7605 20.699C24.7606 20.6736 24.7608 20.6514 24.7608 20.6329L24.7608 13.7552C24.7608 9.09909 21.5751 5.01378 17.1844 3.55023L17.1844 3.4223C17.1844 1.57085 15.6177 0 13.7566 0C11.901 0 10.3274 1.57085 10.3274 3.4223L10.3274 3.55023C5.93676 5.01378 2.75242 9.09909 2.75242 13.7552L2.75242 20.6329C2.75242 20.6505 2.75256 20.6716 2.75271 20.6955C2.75431 20.9473 2.7579 21.5105 2.62725 21.6411L1.02889 23.2395C0.533703 23.7347 0 24.6535 0 25.5036C0 26.5765 0.972495 27.45 2.16783 27.45L8.18712 27.45C8.75246 29.842 10.912 31.6288 13.4815 31.6288C16.051 31.6288 18.692 29.9025 19.2587 27.5105L25.3454 27.45C26.5407 27.45 27.5119 26.5765 27.5119 25.5036C27.5119 24.6563 26.9795 23.736 26.4843 23.2395ZM9.62999 24.7595L24.5804 24.7595L24.7663 24.9452C24.7797 24.9586 24.7714 24.9011 24.7634 24.8462C24.7578 24.8074 24.7524 24.7699 24.7549 24.7595L24.7608 24.7595C24.7577 24.7555 24.7558 24.7559 24.7549 24.7595L24.5804 24.7595L23.1693 23.3496C22.5737 22.754 22.0097 21.4747 22.0097 20.6329L22.0097 13.7553C22.0097 9.8378 19.5475 6.55855 15.6892 5.63557C15.1445 5.5049 14.7593 5.01934 14.7593 4.4595L14.7593 3.42235C14.7593 2.90928 14.2751 2.7511 13.7566 2.7511C13.2517 2.7511 12.7511 2.91891 12.7511 3.42235L12.7511 4.4595C12.7511 5.01934 12.3673 5.5049 11.8226 5.63557C7.96423 6.55855 5.50342 9.8378 5.50342 13.7553L5.50342 20.6329C5.50342 21.4747 4.93946 22.754 4.34385 23.3482L2.75237 24.7595C2.78263 24.6412 2.7761 24.6474 2.76527 24.68C2.75444 24.7127 2.73931 24.7719 2.75237 24.7595L9.62999 24.7595ZM13.4815 29.2106C12.2641 29.2106 11.2132 28.4871 10.7373 27.45L16.2243 27.45C15.7483 28.4871 14.6974 29.2106 13.4815 29.2106Z" id="notification-icon" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+                                            </svg>
+                                            <span class="notification_count">3</span>
+                                        </div>
+                                        <div class="header__title">
+                                            <h2>Forecast</h2>
+                                            <p>14 February</p>
+                                        </div>
+                                    </div>
+                                    <div class="aside__content">
+                                        <div class="events">
+                                            <div class="event">
+                                                <div class="event__duration w-25"></div>
+                                                <div class="event__time">9:45</div>
+                                                <div class="event__name">Reply to Debie Wilhelm</div>
+                                            </div>
+                                            <div class="event">
+                                                <div class="event__duration w-50"></div>
+                                                <div class="event__time">9:59</div>
+                                                <div class="event__name invite">New invitation from Julie</div>
+                                                <div class="event__actions d-flex">
+                                                    <button class="action__accept">
+                                                        <div class="action__accept__icon">
+                                                        <svg width="12px" height="9px" viewBox="0 0 7 5" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M6.80647 0.181658C6.54842 -0.0605526 6.13067 -0.0605526 5.87329 0.181658L2.33328 3.50446L1.12622 2.37208C0.868834 2.12987 0.451081 2.12987 0.193037 2.37208C-0.0643458 2.61367 -0.0643458 3.00579 0.193037 3.248L1.86669 4.81834C2.12407 5.06055 2.54182 5.06055 2.79987 4.81834L6.80647 1.05758C7.06451 0.815988 7.06451 0.423868 6.80647 0.181658" id="tick-icon" fill="#989898" fill-opacity="0.298039228" stroke="none" />
+                                                        </svg>
+                                                        </div>
+                                                        <div class="action__accept__text">
+                                                            Accept
+                                                        </div>
+                                                    </button>
+                                                    <div class="action__view">
+                                                        <a href="#">View event</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="event">
+                                                <div class="event__duration w-100"></div>
+                                                <div class="event__time">10:30</div>
+                                                <div class="event__name">Wireframes with Josh</div>
+                                            </div>
+                                            <div class="event">
+                                                <div class="event__duration w-75"></div>
+                                                <div class="event__time">12:45</div>
+                                                <div class="event__name">Follow up on Wireframes and Design</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </aside>
                             </div>
                         </div>
                     </div>
