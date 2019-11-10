@@ -49,13 +49,26 @@ main .tabs .tabs__type .tabs__text {
   margin-left: 10px;
   font-size: 13px;
 }
-main .block {
+main .block__drag__container {
+  height: 100%;
+  width: 100%;
   min-height: 130px;
+}
+main .block__drag__container.droppable__active {
+  box-shadow: 0px 0px 5px rgba(1, 172, 253, 0.4);
+}
+main .block {
+  height: 100%;
   padding: 30px;
   padding-bottom: 20px;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  cursor: pointer;
+}
+main .block:hover {
+  box-shadow: 0px 0px 5px rgba(1, 172, 253, 0.4);
 }
 main .block .block__content {
   margin-top: 15px;

@@ -19,6 +19,10 @@ body a:link,
 body a:visited {
   text-decoration: none;
 }
+body .ui-draggable-dragging {
+  z-index: 4 !important;
+  transition: all 0.3s ease-in-out, left 0s linear, right 0s linear, top 0s linear, bottom 0s linear;
+}
 
 /*# sourceMappingURL=main.scss.map */
 
