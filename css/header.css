@@ -1,9 +1,12 @@
 header {
+  position: fixed;
   height: 70px;
+  width: calc(100% - 70px);
   margin-left: 70px;
   padding-left: 3%;
   border-bottom: 1px solid #c5c5c5;
   background: #fff;
+  z-index: 3;
 }
 header .search {
   margin-top: 23px;

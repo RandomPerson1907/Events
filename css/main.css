@@ -1,5 +1,5 @@
 main {
-  margin-top: 50px;
+  margin-top: 120px;
   margin-left: 10%;
 }
 main h1 {
@@ -58,9 +58,7 @@ main .block__drag__container.droppable__active {
   box-shadow: 0px 0px 5px rgba(1, 172, 253, 0.4);
 }
 main .block {
-  height: 100%;
-  padding: 30px;
-  padding-bottom: 20px;
+  padding: 30px 30px 20px;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0 2px 9px rgba(0, 0, 0, 0.1);
@@ -69,6 +67,57 @@ main .block {
 }
 main .block:hover {
   box-shadow: 0px 0px 5px rgba(1, 172, 253, 0.4);
+}
+main .block.session__block {
+  margin-bottom: 50px;
+  padding: 2rem;
+}
+main .block.session__block .session__block__main .avatar {
+  border-radius: 50%;
+}
+main .block.session__block .session__block__main .info {
+  margin-left: 30px;
+}
+main .block.session__block .session__block__main .info .info__name {
+  color: #323c47;
+  font-size: 17px;
+}
+main .block.session__block .session__block__main .info .info__email {
+  font-size: 11px;
+}
+main .block.session__block .session__block__main .info .info__position {
+  margin-top: 10px;
+  font-size: 13px;
+}
+main .block.session__block .session__block__stat {
+  margin-top: 2rem;
+  padding: 0;
+  border: 2px solid #e9eff4;
+  border-radius: 5px;
+}
+main .block.session__block .session__block__stat .stat__info {
+  padding: 20px;
+  border-bottom: 2px solid #e9eff4;
+}
+main .block.session__block .session__block__stat .stat__info .stat__block {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+main .block.session__block .session__block__stat .stat__info .stat__block .stat__text {
+  color: #323c47;
+  font-size: 11px;
+}
+main .block.session__block .session__block__stat .stat__graph {
+  margin-top: 1rem;
+}
+main .block.session__block .session__block__stat .stat__graph .graph__title {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #323c47;
+  font-size: 11px;
+}
+main .block.session__block .session__block__stat .stat__graph .graph__view svg {
+  width: 300px;
 }
 main .block .block__content {
   margin-top: 15px;
@@ -90,6 +139,22 @@ main .block .block__text .orange {
 main .block .block__img {
   border: none;
   background: transparent;
+}
+main .sessions .sessions__date {
+  position: relative;
+  padding-bottom: 10px;
+  color: #474f58;
+  font-size: 16px;
+}
+main .sessions .sessions__date:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 52px;
+  height: 4px;
+  border-radius: 5px;
+  background: #4da1ff;
 }
 
 /*# sourceMappingURL=main.css.map */

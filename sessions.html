@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Events</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
@@ -255,57 +255,411 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row mt-5">
-                                        <div class="col-md-4">
-                                            <div class="block__drag__container">
-                                                <div class="block block__stat block__stat_number">
-
+                                    <section class="sessions">
+                                        <div class="row mt-5">
+                                            <div class="col-md-12">
+                                                <div class="sessions__date mb-5">
+                                                    14th Tuesday
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="block__drag__container">
+                                                    <div class="block session__block">
+                                                        <div class="session__block__main d-flex">
+                                                            <div class="avatar">
+                                                                <img src="img/avatar.png" alt="Avatar">
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info__name">Samuel Spencer</div>
+                                                                <div class="info__email">sasp@egamet.com</div>
+                                                                <div class="info__position">Creative Director</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="session__block__stat">
+                                                            <div class="stat__info d-flex justify-content-between">
+                                                                <div class="stat__block invites block__text">
+                                                                    <div class="stat__text stat__text_invites">Invites</div>
+                                                                    <div class="stat__count stat__count_invites blue">03</div>
+                                                                </div>
+                                                                <div class="stat__block pending block__text">
+                                                                    <div class="stat__text stat__text_pending">Pending</div>
+                                                                    <div class="stat__count stat__count_pending orange">02</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stat__graph">
+                                                                <div class="graph__title">
+                                                                    Overall activity
+                                                                </div>
+                                                                <div class="graph__view">
+                                                                    <svg width="300px" height="48px" viewBox="0 0 244 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                                        <defs>
+                                                                            <linearGradient x1="0.5" y1="-2.663543" x2="0.5" y2="0.570143163" id="gradient_1">
+                                                                                <stop offset="0" stop-color="#00ACFF" />
+                                                                                <stop offset="1" stop-color="#00ACFF" stop-opacity="0" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                        <path d="M4.99567 28.3063C4.99567 28.3063 38.1006 38.0783 48.5294 29.6436C58.9582 21.209 64.0574 11.4512 71.3667 15.7418C78.6761 20.0323 89.3141 35.1386 99.9134 30.9817C110.513 26.8248 125.062 13.1798 138.451 16.4927C151.841 19.8063 155.764 29.0609 165.571 25.6302C175.378 22.1994 181.472 -4.71904 196.259 0.724115C211.045 6.16727 217.328 19.5525 228.374 19.6103C239.419 19.6674 235.148 33.6316 246.215 29.2577C257.283 24.8838 267.355 22.2572 273.335 38.3396C279.314 54.4228 274.048 81.8195 274.048 81.8195L0 75.7989L4.99567 28.3063L4.99567 28.3063Z" transform="translate(-8.824341 1)" id="Shape" fill="url(#gradient_1)" stroke="#00AAFF" stroke-opacity="0.8" stroke-width="2" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="block__drag__container">
+                                                    <div class="block session__block">
+                                                        <div class="session__block__main d-flex">
+                                                            <div class="avatar">
+                                                                <img src="img/avatar2.png" alt="Avatar">
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info__name">Kit Laframboise</div>
+                                                                <div class="info__email">kila@egament.com</div>
+                                                                <div class="info__position">Data Analysit</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="session__block__stat">
+                                                            <div class="stat__info d-flex justify-content-between">
+                                                                <div class="stat__block invites block__text">
+                                                                    <div class="stat__text stat__text_invites">Invites</div>
+                                                                    <div class="stat__count stat__count_invites blue">07</div>
+                                                                </div>
+                                                                <div class="stat__block pending block__text">
+                                                                    <div class="stat__text stat__text_pending">Pending</div>
+                                                                    <div class="stat__count stat__count_pending orange">00</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stat__graph">
+                                                                <div class="graph__title">
+                                                                    Overall activity
+                                                                </div>
+                                                                <div class="graph__view">
+                                                                    <svg width="300px" height="48px" viewBox="0 0 244 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                                        <defs>
+                                                                            <linearGradient x1="0.5" y1="-2.663543" x2="0.5" y2="0.570143163" id="gradient_1">
+                                                                                <stop offset="0" stop-color="#00ACFF" />
+                                                                                <stop offset="1" stop-color="#00ACFF" stop-opacity="0" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                        <path d="M4.99567 28.3063C4.99567 28.3063 38.1006 38.0783 48.5294 29.6436C58.9582 21.209 64.0574 11.4512 71.3667 15.7418C78.6761 20.0323 89.3141 35.1386 99.9134 30.9817C110.513 26.8248 125.062 13.1798 138.451 16.4927C151.841 19.8063 155.764 29.0609 165.571 25.6302C175.378 22.1994 181.472 -4.71904 196.259 0.724115C211.045 6.16727 217.328 19.5525 228.374 19.6103C239.419 19.6674 235.148 33.6316 246.215 29.2577C257.283 24.8838 267.355 22.2572 273.335 38.3396C279.314 54.4228 274.048 81.8195 274.048 81.8195L0 75.7989L4.99567 28.3063L4.99567 28.3063Z" transform="translate(-8.824341 1)" id="Shape" fill="url(#gradient_1)" stroke="#00AAFF" stroke-opacity="0.8" stroke-width="2" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="block__drag__container">
+                                                    <div class="block session__block">
+                                                        <div class="session__block__main d-flex">
+                                                            <div class="avatar">
+                                                                <img src="img/avatar3.png" alt="Avatar">
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info__name">Abagael Enno</div>
+                                                                <div class="info__email">anhu@egament.com</div>
+                                                                <div class="info__position">Product Manager</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="session__block__stat">
+                                                            <div class="stat__info d-flex justify-content-between">
+                                                                <div class="stat__block invites block__text">
+                                                                    <div class="stat__text stat__text_invites">Invites</div>
+                                                                    <div class="stat__count stat__count_invites blue">13</div>
+                                                                </div>
+                                                                <div class="stat__block pending block__text">
+                                                                    <div class="stat__text stat__text_pending">Pending</div>
+                                                                    <div class="stat__count stat__count_pending orange">05</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stat__graph">
+                                                                <div class="graph__title">
+                                                                    Overall activity
+                                                                </div>
+                                                                <div class="graph__view">
+                                                                    <svg width="300px" height="48px" viewBox="0 0 244 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                                        <defs>
+                                                                            <linearGradient x1="0.5" y1="-2.663543" x2="0.5" y2="0.570143163" id="gradient_1">
+                                                                                <stop offset="0" stop-color="#00ACFF" />
+                                                                                <stop offset="1" stop-color="#00ACFF" stop-opacity="0" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                        <path d="M4.99567 28.3063C4.99567 28.3063 38.1006 38.0783 48.5294 29.6436C58.9582 21.209 64.0574 11.4512 71.3667 15.7418C78.6761 20.0323 89.3141 35.1386 99.9134 30.9817C110.513 26.8248 125.062 13.1798 138.451 16.4927C151.841 19.8063 155.764 29.0609 165.571 25.6302C175.378 22.1994 181.472 -4.71904 196.259 0.724115C211.045 6.16727 217.328 19.5525 228.374 19.6103C239.419 19.6674 235.148 33.6316 246.215 29.2577C257.283 24.8838 267.355 22.2572 273.335 38.3396C279.314 54.4228 274.048 81.8195 274.048 81.8195L0 75.7989L4.99567 28.3063L4.99567 28.3063Z" transform="translate(-8.824341 1)" id="Shape" fill="url(#gradient_1)" stroke="#00AAFF" stroke-opacity="0.8" stroke-width="2" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="block__drag__container">
+                                                    <div class="block session__block">
+                                                        <div class="session__block__main d-flex">
+                                                            <div class="avatar">
+                                                                <img src="img/avatar.png" alt="Avatar">
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info__name">Samuel Spencer</div>
+                                                                <div class="info__email">sasp@egamet.com</div>
+                                                                <div class="info__position">Creative Director</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="session__block__stat">
+                                                            <div class="stat__info d-flex justify-content-between">
+                                                                <div class="stat__block invites block__text">
+                                                                    <div class="stat__text stat__text_invites">Invites</div>
+                                                                    <div class="stat__count stat__count_invites blue">03</div>
+                                                                </div>
+                                                                <div class="stat__block pending block__text">
+                                                                    <div class="stat__text stat__text_pending">Pending</div>
+                                                                    <div class="stat__count stat__count_pending orange">02</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stat__graph">
+                                                                <div class="graph__title">
+                                                                    Overall activity
+                                                                </div>
+                                                                <div class="graph__view">
+                                                                    <svg width="300px" height="48px" viewBox="0 0 244 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                                        <defs>
+                                                                            <linearGradient x1="0.5" y1="-2.663543" x2="0.5" y2="0.570143163" id="gradient_1">
+                                                                                <stop offset="0" stop-color="#00ACFF" />
+                                                                                <stop offset="1" stop-color="#00ACFF" stop-opacity="0" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                        <path d="M4.99567 28.3063C4.99567 28.3063 38.1006 38.0783 48.5294 29.6436C58.9582 21.209 64.0574 11.4512 71.3667 15.7418C78.6761 20.0323 89.3141 35.1386 99.9134 30.9817C110.513 26.8248 125.062 13.1798 138.451 16.4927C151.841 19.8063 155.764 29.0609 165.571 25.6302C175.378 22.1994 181.472 -4.71904 196.259 0.724115C211.045 6.16727 217.328 19.5525 228.374 19.6103C239.419 19.6674 235.148 33.6316 246.215 29.2577C257.283 24.8838 267.355 22.2572 273.335 38.3396C279.314 54.4228 274.048 81.8195 274.048 81.8195L0 75.7989L4.99567 28.3063L4.99567 28.3063Z" transform="translate(-8.824341 1)" id="Shape" fill="url(#gradient_1)" stroke="#00AAFF" stroke-opacity="0.8" stroke-width="2" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="block__drag__container">
+                                                    <div class="block session__block">
+                                                        <div class="session__block__main d-flex">
+                                                            <div class="avatar">
+                                                                <img src="img/avatar2.png" alt="Avatar">
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info__name">Kit Laframboise</div>
+                                                                <div class="info__email">kila@egament.com</div>
+                                                                <div class="info__position">Data Analysit</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="session__block__stat">
+                                                            <div class="stat__info d-flex justify-content-between">
+                                                                <div class="stat__block invites block__text">
+                                                                    <div class="stat__text stat__text_invites">Invites</div>
+                                                                    <div class="stat__count stat__count_invites blue">07</div>
+                                                                </div>
+                                                                <div class="stat__block pending block__text">
+                                                                    <div class="stat__text stat__text_pending">Pending</div>
+                                                                    <div class="stat__count stat__count_pending orange">00</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stat__graph">
+                                                                <div class="graph__title">
+                                                                    Overall activity
+                                                                </div>
+                                                                <div class="graph__view">
+                                                                    <svg width="300px" height="48px" viewBox="0 0 244 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                                        <defs>
+                                                                            <linearGradient x1="0.5" y1="-2.663543" x2="0.5" y2="0.570143163" id="gradient_1">
+                                                                                <stop offset="0" stop-color="#00ACFF" />
+                                                                                <stop offset="1" stop-color="#00ACFF" stop-opacity="0" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                        <path d="M4.99567 28.3063C4.99567 28.3063 38.1006 38.0783 48.5294 29.6436C58.9582 21.209 64.0574 11.4512 71.3667 15.7418C78.6761 20.0323 89.3141 35.1386 99.9134 30.9817C110.513 26.8248 125.062 13.1798 138.451 16.4927C151.841 19.8063 155.764 29.0609 165.571 25.6302C175.378 22.1994 181.472 -4.71904 196.259 0.724115C211.045 6.16727 217.328 19.5525 228.374 19.6103C239.419 19.6674 235.148 33.6316 246.215 29.2577C257.283 24.8838 267.355 22.2572 273.335 38.3396C279.314 54.4228 274.048 81.8195 274.048 81.8195L0 75.7989L4.99567 28.3063L4.99567 28.3063Z" transform="translate(-8.824341 1)" id="Shape" fill="url(#gradient_1)" stroke="#00AAFF" stroke-opacity="0.8" stroke-width="2" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="block__drag__container">
+                                                    <div class="block session__block">
+                                                        <div class="session__block__main d-flex">
+                                                            <div class="avatar">
+                                                                <img src="img/avatar3.png" alt="Avatar">
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info__name">Abagael Enno</div>
+                                                                <div class="info__email">anhu@egament.com</div>
+                                                                <div class="info__position">Product Manager</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="session__block__stat">
+                                                            <div class="stat__info d-flex justify-content-between">
+                                                                <div class="stat__block invites block__text">
+                                                                    <div class="stat__text stat__text_invites">Invites</div>
+                                                                    <div class="stat__count stat__count_invites blue">13</div>
+                                                                </div>
+                                                                <div class="stat__block pending block__text">
+                                                                    <div class="stat__text stat__text_pending">Pending</div>
+                                                                    <div class="stat__count stat__count_pending orange">05</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stat__graph">
+                                                                <div class="graph__title">
+                                                                    Overall activity
+                                                                </div>
+                                                                <div class="graph__view">
+                                                                    <svg width="300px" height="48px" viewBox="0 0 244 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                                        <defs>
+                                                                            <linearGradient x1="0.5" y1="-2.663543" x2="0.5" y2="0.570143163" id="gradient_1">
+                                                                                <stop offset="0" stop-color="#00ACFF" />
+                                                                                <stop offset="1" stop-color="#00ACFF" stop-opacity="0" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                        <path d="M4.99567 28.3063C4.99567 28.3063 38.1006 38.0783 48.5294 29.6436C58.9582 21.209 64.0574 11.4512 71.3667 15.7418C78.6761 20.0323 89.3141 35.1386 99.9134 30.9817C110.513 26.8248 125.062 13.1798 138.451 16.4927C151.841 19.8063 155.764 29.0609 165.571 25.6302C175.378 22.1994 181.472 -4.71904 196.259 0.724115C211.045 6.16727 217.328 19.5525 228.374 19.6103C239.419 19.6674 235.148 33.6316 246.215 29.2577C257.283 24.8838 267.355 22.2572 273.335 38.3396C279.314 54.4228 274.048 81.8195 274.048 81.8195L0 75.7989L4.99567 28.3063L4.99567 28.3063Z" transform="translate(-8.824341 1)" id="Shape" fill="url(#gradient_1)" stroke="#00AAFF" stroke-opacity="0.8" stroke-width="2" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="block__drag__container">
+                                                    <div class="block session__block">
+                                                        <div class="session__block__main d-flex">
+                                                            <div class="avatar">
+                                                                <img src="img/avatar.png" alt="Avatar">
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info__name">Samuel Spencer</div>
+                                                                <div class="info__email">sasp@egamet.com</div>
+                                                                <div class="info__position">Creative Director</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="session__block__stat">
+                                                            <div class="stat__info d-flex justify-content-between">
+                                                                <div class="stat__block invites block__text">
+                                                                    <div class="stat__text stat__text_invites">Invites</div>
+                                                                    <div class="stat__count stat__count_invites blue">03</div>
+                                                                </div>
+                                                                <div class="stat__block pending block__text">
+                                                                    <div class="stat__text stat__text_pending">Pending</div>
+                                                                    <div class="stat__count stat__count_pending orange">02</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stat__graph">
+                                                                <div class="graph__title">
+                                                                    Overall activity
+                                                                </div>
+                                                                <div class="graph__view">
+                                                                    <svg width="300px" height="48px" viewBox="0 0 244 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                                        <defs>
+                                                                            <linearGradient x1="0.5" y1="-2.663543" x2="0.5" y2="0.570143163" id="gradient_1">
+                                                                                <stop offset="0" stop-color="#00ACFF" />
+                                                                                <stop offset="1" stop-color="#00ACFF" stop-opacity="0" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                        <path d="M4.99567 28.3063C4.99567 28.3063 38.1006 38.0783 48.5294 29.6436C58.9582 21.209 64.0574 11.4512 71.3667 15.7418C78.6761 20.0323 89.3141 35.1386 99.9134 30.9817C110.513 26.8248 125.062 13.1798 138.451 16.4927C151.841 19.8063 155.764 29.0609 165.571 25.6302C175.378 22.1994 181.472 -4.71904 196.259 0.724115C211.045 6.16727 217.328 19.5525 228.374 19.6103C239.419 19.6674 235.148 33.6316 246.215 29.2577C257.283 24.8838 267.355 22.2572 273.335 38.3396C279.314 54.4228 274.048 81.8195 274.048 81.8195L0 75.7989L4.99567 28.3063L4.99567 28.3063Z" transform="translate(-8.824341 1)" id="Shape" fill="url(#gradient_1)" stroke="#00AAFF" stroke-opacity="0.8" stroke-width="2" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="block__drag__container">
+                                                    <div class="block session__block">
+                                                        <div class="session__block__main d-flex">
+                                                            <div class="avatar">
+                                                                <img src="img/avatar2.png" alt="Avatar">
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info__name">Kit Laframboise</div>
+                                                                <div class="info__email">kila@egament.com</div>
+                                                                <div class="info__position">Data Analysit</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="session__block__stat">
+                                                            <div class="stat__info d-flex justify-content-between">
+                                                                <div class="stat__block invites block__text">
+                                                                    <div class="stat__text stat__text_invites">Invites</div>
+                                                                    <div class="stat__count stat__count_invites blue">07</div>
+                                                                </div>
+                                                                <div class="stat__block pending block__text">
+                                                                    <div class="stat__text stat__text_pending">Pending</div>
+                                                                    <div class="stat__count stat__count_pending orange">00</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stat__graph">
+                                                                <div class="graph__title">
+                                                                    Overall activity
+                                                                </div>
+                                                                <div class="graph__view">
+                                                                    <svg width="300px" height="48px" viewBox="0 0 244 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                                        <defs>
+                                                                            <linearGradient x1="0.5" y1="-2.663543" x2="0.5" y2="0.570143163" id="gradient_1">
+                                                                                <stop offset="0" stop-color="#00ACFF" />
+                                                                                <stop offset="1" stop-color="#00ACFF" stop-opacity="0" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                        <path d="M4.99567 28.3063C4.99567 28.3063 38.1006 38.0783 48.5294 29.6436C58.9582 21.209 64.0574 11.4512 71.3667 15.7418C78.6761 20.0323 89.3141 35.1386 99.9134 30.9817C110.513 26.8248 125.062 13.1798 138.451 16.4927C151.841 19.8063 155.764 29.0609 165.571 25.6302C175.378 22.1994 181.472 -4.71904 196.259 0.724115C211.045 6.16727 217.328 19.5525 228.374 19.6103C239.419 19.6674 235.148 33.6316 246.215 29.2577C257.283 24.8838 267.355 22.2572 273.335 38.3396C279.314 54.4228 274.048 81.8195 274.048 81.8195L0 75.7989L4.99567 28.3063L4.99567 28.3063Z" transform="translate(-8.824341 1)" id="Shape" fill="url(#gradient_1)" stroke="#00AAFF" stroke-opacity="0.8" stroke-width="2" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="block__drag__container">
+                                                    <div class="block session__block">
+                                                        <div class="session__block__main d-flex">
+                                                            <div class="avatar">
+                                                                <img src="img/avatar3.png" alt="Avatar">
+                                                            </div>
+                                                            <div class="info">
+                                                                <div class="info__name">Abagael Enno</div>
+                                                                <div class="info__email">anhu@egament.com</div>
+                                                                <div class="info__position">Product Manager</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="session__block__stat">
+                                                            <div class="stat__info d-flex justify-content-between">
+                                                                <div class="stat__block invites block__text">
+                                                                    <div class="stat__text stat__text_invites">Invites</div>
+                                                                    <div class="stat__count stat__count_invites blue">13</div>
+                                                                </div>
+                                                                <div class="stat__block pending block__text">
+                                                                    <div class="stat__text stat__text_pending">Pending</div>
+                                                                    <div class="stat__count stat__count_pending orange">05</div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="stat__graph">
+                                                                <div class="graph__title">
+                                                                    Overall activity
+                                                                </div>
+                                                                <div class="graph__view">
+                                                                    <svg width="300px" height="48px" viewBox="0 0 244 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                                                        <defs>
+                                                                            <linearGradient x1="0.5" y1="-2.663543" x2="0.5" y2="0.570143163" id="gradient_1">
+                                                                                <stop offset="0" stop-color="#00ACFF" />
+                                                                                <stop offset="1" stop-color="#00ACFF" stop-opacity="0" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                        <path d="M4.99567 28.3063C4.99567 28.3063 38.1006 38.0783 48.5294 29.6436C58.9582 21.209 64.0574 11.4512 71.3667 15.7418C78.6761 20.0323 89.3141 35.1386 99.9134 30.9817C110.513 26.8248 125.062 13.1798 138.451 16.4927C151.841 19.8063 155.764 29.0609 165.571 25.6302C175.378 22.1994 181.472 -4.71904 196.259 0.724115C211.045 6.16727 217.328 19.5525 228.374 19.6103C239.419 19.6674 235.148 33.6316 246.215 29.2577C257.283 24.8838 267.355 22.2572 273.335 38.3396C279.314 54.4228 274.048 81.8195 274.048 81.8195L0 75.7989L4.99567 28.3063L4.99567 28.3063Z" transform="translate(-8.824341 1)" id="Shape" fill="url(#gradient_1)" stroke="#00AAFF" stroke-opacity="0.8" stroke-width="2" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
-                                            <div class="block__drag__container">
-                                                <div class="block block__stat block__stat_no-answer">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="block__drag__container">
-                                                <div class="block block__stat block__stat_no-answer">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row mt-5">
-                                        <div class="col-md-4">
-                                            <div class="block__drag__container">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="block__drag__container">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="block__drag__container">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row mt-5">
-                                        <div class="col-md-4">
-                                            <div class="block__drag__container">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="block__drag__container">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="block__drag__container">
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </section>
                                 </main>
                             </div>
                             <div class="col-md-2 pr-0">
@@ -373,10 +727,10 @@
         document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
             ':35729/livereload.js?snipver=1"></' + 'script>')
     </script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
